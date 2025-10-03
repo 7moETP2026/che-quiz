@@ -1,0 +1,83 @@
+{
+  "Patriotas_Argentinos": [
+    {
+      "nombre": "José de San Martín",
+      "descripcion": "Libertador de Argentina, Chile y Perú.",
+      "imagen": "./img/proceres/sanmartin.webp"
+    },
+    {
+      "nombre": "Manuel Belgrano",
+      "descripcion": "Creador de la bandera argentina.",
+      "imagen": "./img/proceres/manuel belgrano.webp"
+    },
+    {
+      "nombre": "Juan Martín de Pueyrredón",
+      "descripcion": "Director Supremo que apoyó las campañas libertadoras.",
+      "imagen": "./img/proceres/pueyrredon.webp"
+    },
+    {
+      "nombre": "Martín Miguel de Güemes",
+      "descripcion": "Defensor del norte argentino con sus gauchos.",
+      "imagen":"./img/proceres/martin guemes.webp"
+    },
+    {
+      "nombre": "Juana Azurduy",
+      "descripcion": "Heroína de la independencia, luchó junto a las tropas patriotas.",
+      "imagen":"./img/proceres/jauana azurduy.webp"
+    }
+  ],
+  "Presidentes_Argentinos": [
+    {
+      "nombre": "Domingo Faustino Sarmiento",
+      "descripcion": "Impulsor de la educación pública.",
+      "imagen":"./img/presidentes/faustino sarmiento.webp"
+    },
+    {
+      "nombre": "Bartolomé Mitre",
+      "descripcion": "Primer presidente de la Nación unificada.",
+      "imagen":"./img/presidentes/bartolome mitre.webp"
+    },
+    {
+      "nombre": "Hipólito Yrigoyen",
+      "descripcion": "Primer presidente elegido por voto secreto y obligatorio.",
+      "imagen":"./img/presidentes/hipolito yrigoyen.webp"
+    },
+    {
+      "nombre": "Juan Domingo Perón",
+      "descripcion": "Figura central del peronismo, tres veces presidente.",
+      "imagen":"./img/presidentes/peron.webp"
+    },
+    {
+      "nombre": "Raúl Alfonsín",
+      "descripcion": "Presidente del retorno democrático en 1983.",
+      "imagen":"./img/presidentes/raul alfonsin.webp"
+    }
+  ],
+  "Actores_Argentinos": [
+    {
+      "nombre": "Ricardo Darín",
+      "descripcion": "Actor de cine reconocido internacionalmente.",
+      "imagen":"./img/actores/ricardo darin.webp"
+    },
+    {
+      "nombre": "Norma Aleandro",
+      "descripcion": "Actriz premiada en Hollywood y referente del teatro.",
+      "imagen":"./img/actores/norma leandro.webp"
+    },
+    {
+      "nombre": "Luis Brandoni",
+      "descripcion": "Actor de cine, teatro y televisión.",
+      "imagen": "./img/actores/luis brandoni.webp"
+    },
+    {
+      "nombre": "Mercedes Morán",
+      "descripcion": "Actriz destacada en cine y TV.",
+      "imagen":"./img/actores/mercedes moran.webp"
+    },
+    {
+      "nombre": "Guillermo Francella",
+      "descripcion": "Actor de comedia y drama, muy popular en Argentina.",
+      "imagen":"./img/actores/guillermo francella.webp"
+    }
+  ]
+}

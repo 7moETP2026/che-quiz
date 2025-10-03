@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Famosos Argentinos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Pantalla de Inicio -->
+    <div id="startScreen" class="container">
+        <div class="logo">✨</div>
+        <h1>Quiz de Famosos</h1>
+        <p class="subtitle">¡Adivina quién es basándote en las pistas!</p>
+        
+        <div class="stats">
+            <div class="stat-card blue">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Preguntas</div>
+            </div>
+            <div class="stat-card pink">
+                <div class="stat-number">83</div>
+                <div class="stat-label">Famosos</div>
+            </div>
+            <div class="stat-card green">
+                <div class="stat-number">100</div>
+                <div class="stat-label">Puntos</div>
+            </div>
+        </div>
+
+        <button class="btn-primary" onclick="startQuiz()">
+            ⚡ Comenzar Quiz
+        </button>
+    </div>
+
+    <!-- Pantalla de Juego -->
+    <div id="gameScreen" class="container hidden">
+        <div class="question-header">
+            <div class="score">
+                <span>⭐</span>
+                <span>Puntos: <span id="scoreValue">0</span></span>
+            </div>
+            <div class="question-counter">
+                Pregunta <span id="currentQuestion">1</span>/10
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressBar"></div>
+        </div>
+
+        <div class="timer" id="timer">⏱️ 10s</div>
+
+        <div class="category-badge" id="categoryBadge">Presidente</div>
+
+        <img id="questionImage" class="question-image" src="" alt="Personaje">
+
+        <div class="question-text" id="questionText">
+            Presidente en los 90, riojano, privatizaciones
+        </div>
+
+        <div class="options" id="optionsContainer"></div>
+    </div>
+
+    <!-- Pantalla de Resultados -->
+    <div id="resultScreen" class="container hidden">
+        <div class="logo">✨</div>
+        <div class="result-message" id="resultMessage">¡Excelente trabajo!</div>
+        <div class="final-score"><span id="finalScore">80</span> pts</div>
+        <div class="result-description" id="resultDescription">Muy buen conocimiento</div>
+
+        <button class="btn-primary" onclick="startQuiz()">
+            🔄 Jugar de Nuevo
+        </button>
+        <button class="btn-secondary" onclick="goToStart()">
+            🏠 Volver al Inicio
+        </button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
+
